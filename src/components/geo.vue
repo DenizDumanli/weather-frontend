@@ -42,6 +42,7 @@ export default {
         axios.get("http://localhost:5000/country").then((response) => {
           this.infos = response.data;
           this.infos.dt = new Date(this.infos.dt);
+          console.log(response.data);
         });
       }, this.myInput * 1000);
     },
