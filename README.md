@@ -27,3 +27,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+To change the fetching time frequency, you can give the input and fetch the data repeatedly. You can check that on console. 
